@@ -84,6 +84,12 @@ button {
   font-family: "Source Sans Pro";
 }
 
+.error {
+  color: red;
+  margin: 1em 0;
+  font-size: 1rem;
+}
+
 a {
   color: #de802f;
 }
