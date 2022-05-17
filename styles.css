@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro";
+  background-color: rgb(220, 231, 250);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+aside {
+  background-image: url("https://images.unsplash.com/photo-1511860810434-a92f84c6f01e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+  width: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+  height: 100vh;
+  margin: 0;
+}
+
+.content {
+  padding: 2em;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.logo {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 2em;
+  color: white;
+  font-family: "Fredoka One";
+  text-align: center;
+  font-size: 5rem;
+  padding: 0.2em;
+  margin-top: 2em;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.1em;
+}
+
+.logo img {
+  height: 100%;
+  object-fit: cover;
+  margin-right: 0.5em;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  display: block;
+  margin-bottom: 4px;
+  letter-spacing: 1px;
+}
+
+input {
+  padding: 0.2em;
+  font-size: 1.2rem;
+  font-family: "Source Sans Pro";
+}
+
+.form-field {
+  width: 50%;
+}
+
+.input-row {
+  display: flex;
+  margin: 1em 0;
+}
+
+button {
+  border: none;
+  background-color: #de802f;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5em 1.6em;
+  border-radius: 5px;
+  font-family: "Source Sans Pro";
+}
+
+a {
+  color: #de802f;
+}
